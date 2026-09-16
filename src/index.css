@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-fraktur: 'UnifrakturCook', 'UnifrakturMaguntia', serif;
+    --font-serif: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0b0c0e;
+    color: #e2e4e9;
+    overflow-x: hidden;
+  }
+}
+
+.font-fraktur {
+  font-family: var(--font-fraktur);
+  font-weight: 700;
+}
+
+.font-brand {
+  font-family: var(--font-fraktur);
+  font-weight: 700;
+}
+
+.font-code {
+  font-family: var(--font-mono);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 17, 21, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 160, 89, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 160, 89, 0.5);
+}

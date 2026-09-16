@@ -1,0 +1,6 @@
+{
+  "name": "POOKU — Distributed Messaging Platform",
+  "description": "Production-grade real-time distributed messaging platform with event-driven architecture, caching, and post-quantum cryptographic security.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
